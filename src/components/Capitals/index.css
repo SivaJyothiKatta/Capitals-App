@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  width: 50%;
+  height: 350px;
+  border-radius: 8px;
+}
+
+.heading {
+  color: #000000;
+}
+
+.question-container {
+  display: flex;
+  align-items: center;
+}
+
+.select-capital {
+  color: #000000;
+  background-color: #f8fafc;
+  border: 1px solid #cbd2d9;
+  padding: 4px;
+  width: 100px;
+  height: 30px;
+  outline: none;
+}
+
+.options {
+  color: #323f4b;
+  width: 100px;
+}
+
+.text {
+  color: #1e293b;
+  margin-left: 5px;
+}
+
+.country {
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+}
